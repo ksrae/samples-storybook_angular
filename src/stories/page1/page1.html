@@ -1,0 +1,5 @@
+<storybook-page1-btn [emitValue]="inputValue" (clickEmitter)="onResult($event)"></storybook-page1-btn>
+<storybook-page1-txt [resultTxt]="inputValue"></storybook-page1-txt>
+
+<button id="btnko" (click)="setLang('ko')">Korean</button>
+<button (click)="setLang('en')">English</button>
